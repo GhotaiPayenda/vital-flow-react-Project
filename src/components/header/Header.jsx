@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default function Header() {
   return (
     <>
-        <header>
+        <header >
             <div className="log">
                 <img src="https://framerusercontent.com/images/w3sZiBC05z4WZCxZn5XzvnOKr4.svg" alt="" />
                 <span>Vital+Flow</span>
