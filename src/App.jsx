@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-     <Routes>
-      {/* <Route path='' element={<About />} /> */}
-     </Routes>
+     {/* <Routes>
+      <Route path='' element={<About />} />
+     </Routes> */}
 
      <Header />
      <Hero />
