@@ -21,7 +21,11 @@ export default function Hero() {
                         <span>Patients booked already</span>
                     </div>
                 </div>
-                <a href="">Explore care</a>
+            </div>
+
+
+            <div>
+                <img src="https://framerusercontent.com/images/RiukRfppKWATQjdvnvRv1Rm48.jpg?scale-down-to=1024" alt="" />
             </div>
         </section>
 
