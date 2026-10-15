@@ -43,7 +43,7 @@ export default function Hero() {
             </div>
 
 
-            <div className='w-full h-120 rounded-4xl bg-cover bg-center ' 
+            <div className='w-full h-120 rounded-4xl bg-cover bg-center md:w-160 ' 
              style={{
     backgroundImage:
       'url("https://framerusercontent.com/images/RiukRfppKWATQjdvnvRv1Rm48.jpg?scale-down-to=1024")',
