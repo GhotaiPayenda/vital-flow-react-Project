@@ -1,11 +1,11 @@
 import React from 'react'
 import { Star } from 'lucide-react';
-import { MapPin, UserRound, Stethoscope, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function AddDoctor() {
   return (
     <>
-       <section className="w-full px-20 py-10 sm:px-6 sm:py-14 lg:px-8 lg:py-20">
+       <section className="w-full px-6 py-10 sm:px-6 sm:py-14 lg:px-8 lg:py-20">
          <div className="flex flex-col gap-10 rounded-3xl border border-gray-100 bg-blue-50 p-5 shadow-xl shadow-gray-200/50 sm:p-8 lg:p-10">
           <div>
             <h2 className='text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl'>Virtual Consultation</h2>
