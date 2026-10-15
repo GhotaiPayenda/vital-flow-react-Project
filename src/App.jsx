@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import AddDoctor from './components/addDoctor/AddDoctor'
+import WhyUs from './components/whyUs/WhyUs'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
      <Header />
      <Hero />
      <AddDoctor />
+     <WhyUs />
     </>
   )
 }
