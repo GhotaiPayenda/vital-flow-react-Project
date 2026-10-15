@@ -10,7 +10,9 @@ export default function Services() {
           <h2 className="mt-5 text-3xl max-w-160 font-bold leading-tight tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">Personalized solutions for better oral health</h2>
         </header>
 
-        <ServicesCard title="Pediatrics" pragraph="Monitor your child's growth and development closely to ensure their health at every stage." />
+        <div>
+          <ServicesCard title="Pediatrics" pragraph="Monitor your child's growth and development closely to ensure their health at every stage." />
+        </div>
         </section> 
     </>
   )
