@@ -4,7 +4,7 @@ import { Star, Play } from 'lucide-react';
 export default function Hero() {
   return (
     <>
-        <section className='mx-auto flex w-full max-w-7xl flex-col gap-8 px-5 py-8 sm:px-8 sm:py-12 lg:flex-row lg:items-center lg:gap-12 lg:px-10 lg:py-16'>
+        <section className='mx-auto flex w-full max-w-7xl flex-col gap-8 px-5 p-8 sm:px-8 sm:py-32 lg:flex-row lg:items-center lg:gap-12 lg:px-10 lg:py-32'>
             <div className='flex w-full flex-col gap-5 lg:w-1/2 lg:gap-6'>
 
             {/* rating */}
