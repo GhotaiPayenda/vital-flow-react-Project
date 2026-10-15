@@ -13,7 +13,7 @@ export default function Header() {
     }`
 
   return (
-    <header className="relative flex items-center justify-between px-4 py-4 md:px-8 shadow-sm">
+    <header className="fixed w-full bg-white flex items-center justify-between px-4 py-4 lg:px-8 shadow-sm">
 
       {/* Logo */}
       <div className="flex items-center gap-2">
