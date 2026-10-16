@@ -6,6 +6,7 @@ import AddDoctor from './components/addDoctor/AddDoctor'
 import WhyUs from './components/whyUs/WhyUs'
 import Services from './components/services/Services'
 import About from './components/about/About'
+import Features from './components/features/Features'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
      <WhyUs />
      <Services />
      <About />
+     <Features />
     </>
   )
 }
