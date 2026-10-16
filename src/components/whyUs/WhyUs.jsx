@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 export default function WhyUs() {
   return (
     <>
-        <section className='flex flex-col gap-6 p-6 lg:flex-row lg:p-10'>
+        <section className='flex flex-col justify-center gap-6 p-6 lg:flex-row lg:p-10'>
             {/* the content of sec */}
             <div className='flex flex-col gap-6 '>
                 <span  className="w-20 inline-block rounded-full bg-blue-50 px-4 py-1.5 text-sm font-semibold text-blue-700">Why us</span>

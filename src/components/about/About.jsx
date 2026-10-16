@@ -3,9 +3,9 @@ import React from 'react'
 export default function About() {
   return (
     <>
-    <section className='flex  gap-6 p-6 lg:p-20'>
+    <section className='flex flex-col justify-center gap-6 p-6  md:flex-row lg:p-20'>
         {/* image */}
-            <div className='w-full h-140 rounded-4xl bg-cover bg-center md:w-140 lg:w-140 ' 
+            <div className='w-full h-100 rounded-4xl bg-cover bg-center md:h-140 md:w-140 lg:w-140 ' 
              style={{
     backgroundImage:
       'url("https://framerusercontent.com/images/xolhj23w9rvPPDhG1vbAIr7CyM.jpg?scale-down-to=1024")',
