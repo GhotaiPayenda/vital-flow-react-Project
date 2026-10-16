@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero'
 import AddDoctor from './components/addDoctor/AddDoctor'
 import WhyUs from './components/whyUs/WhyUs'
 import Services from './components/services/Services'
+import About from './components/about/About'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
      <AddDoctor />
      <WhyUs />
      <Services />
+     <About />
     </>
   )
 }
