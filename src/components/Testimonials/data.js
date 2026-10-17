@@ -17,7 +17,7 @@ const testimonial = [
         id: 3,
         profileImage: "https://framerusercontent.com/images/2m6Vf3e8eE5i2wfOrSvAT78ctmI.webp",
         name: "Sophia Martinez",
-        desc: "https://framerusercontent.com/images/2m6Vf3e8eE5i2wfOrSvAT78ctmI.webp",
+        desc: "I felt valued and cared for. Their team made every effort to provide exceptional support and service.",
         rating:1,
     },
     {

@@ -20,7 +20,31 @@ export default function Testimonials() {
               key={item.id}
               className="rounded-2xl border border-blue-100 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
             >
-              {/* Star rating */}
+                {/* Patient information */}
+              <div className="flex items-center gap-4 border-t border-gray-100 pt-5">
+                <img
+                  src={item.profileImage}
+                  alt={item.name}
+                  className="h-14 w-14 rounded-full object-cover"
+                />
+
+                <div>
+                  <h3 className="font-bold text-blue-950">
+                    {item.name}
+                  </h3>
+                </div>
+              </div>
+
+
+
+             
+
+              {/* Testimonial description */}
+              <p className="mb-6 leading-7 text-gray-600">
+                "{item.desc}"
+              </p>
+
+               {/* Star rating */}
               <div className="mb-5 flex gap-1">
                 {Array.from({ length: 5 }, (_, index) => (
                   <Star
@@ -35,29 +59,7 @@ export default function Testimonials() {
                 ))}
               </div>
 
-              {/* Testimonial description */}
-              <p className="mb-6 leading-7 text-gray-600">
-                "{item.desc}"
-              </p>
-
-              {/* Patient information */}
-              <div className="flex items-center gap-4 border-t border-gray-100 pt-5">
-                <img
-                  src={item.profileImage}
-                  alt={item.name}
-                  className="h-14 w-14 rounded-full object-cover"
-                />
-
-                <div>
-                  <h3 className="font-bold text-blue-950">
-                    {item.name}
-                  </h3>
-
-                  <p className="text-sm text-gray-500">
-                    Verified Patient
-                  </p>
-                </div>
-              </div>
+              
             </div>
           ))}
         </div>
