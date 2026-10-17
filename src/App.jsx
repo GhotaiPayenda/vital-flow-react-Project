@@ -9,6 +9,7 @@ import About from './components/about/About'
 import Features from './components/features/Features'
 import Testimonials from './components/Testimonials/Testimonials'
 import Works from './components/works/Works'
+import Blog from './components/Blog/Blog'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
      <Features />
      <Works />
      <Testimonials />
+     <Blog />
     </>
   )
 }
