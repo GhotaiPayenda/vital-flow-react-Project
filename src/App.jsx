@@ -10,6 +10,7 @@ import Features from './components/features/Features'
 import Testimonials from './components/Testimonials/Testimonials'
 import Works from './components/works/Works'
 import Blog from './components/Blog/Blog'
+import FAQ from './components/FAQ/FAQ'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
      <Works />
      <Testimonials />
      <Blog />
+     <FAQ />
     </>
   )
 }
